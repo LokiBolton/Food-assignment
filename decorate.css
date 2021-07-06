@@ -1,9 +1,10 @@
 body{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:'Poppins';
+    margin: 0;
 }
 .intro{
     display: flex;
-    background-image: url(project-images/7.png);
+    background-image: url(project-images/Frame\ 58.jpg);
     background-repeat: no-repeat;
 }
 h1{
@@ -19,17 +20,42 @@ h1{
     padding-right: 70px;
 }
 p{
-    font-size: 150%;
+    font-size: 120%;
     margin-bottom: 80px;
+    color: gray;
 }
-.first-image{
+.female-image{
     width: 50%;
 }
 .order-button{
     text-decoration: none;
     background-image: linear-gradient(salmon, orange);
     color: white;
-    font-weight: 600;
+    font-weight: 400;
     padding: 10px 40px;
-    border-radius: 200px;
+    border-radius: 30px;
 }
+.myself{
+    display: flex;
+    margin-top: 150px;
+    background-image: url(project-images/7.png);
+}
+.about{
+    text-align: justify;
+    padding: 0 120px;
+    margin-top: 100px;
+}
+.chef-image{
+    width: 50%;
+    margin-left: 100px;
+}
+.contact-button{
+    text-decoration: none;
+    background-image: linear-gradient(salmon, orange);
+    color: white;
+    font-weight: 400;
+    padding: 10px 40px;
+    border-radius: 30px;
+}
+
+
