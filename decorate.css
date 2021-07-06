@@ -2,7 +2,7 @@ body{
     font-family:'Poppins';
     margin: 0;
 }
-.intro{
+#intro{
     display: flex;
     background-image: url(project-images/Frame\ 58.jpg);
     background-repeat: no-repeat;
@@ -13,7 +13,7 @@ h1{
 .head-color{
     color: salmon;
 }
-.heading{
+#heading{
     width: 100%;
     margin-top: 150px;
     margin-left: 100px;
@@ -23,11 +23,12 @@ p{
     font-size: 120%;
     margin-bottom: 80px;
     color: gray;
+    text-align: justify;
 }
-.female-image{
+#female-image{
     width: 50%;
 }
-.order-button{
+.button{
     text-decoration: none;
     background-image: linear-gradient(salmon, orange);
     color: white;
@@ -35,60 +36,91 @@ p{
     padding: 10px 40px;
     border-radius: 30px;
 }
-.myself{
+#myself{
     display: flex;
     margin-top: 150px;
     background-image: url(project-images/7.png);
     margin-bottom: 150px;
 }
-.about{
+#about{
     text-align: justify;
     padding: 0 120px;
     margin-top: 100px;
 }
-.chef-image{
+#chef-image{
     width: 50%;
     margin-left: 100px;
 }
-.contact-button{
-    text-decoration: none;
-    background-image: linear-gradient(salmon, orange);
-    color: white;
-    font-weight: 400;
-    padding: 10px 40px;
-    border-radius: 30px;
-}
-.recipy-talk{
+#recipe-talk{
     text-align: center;
     padding: 0 250px;
 }
-.recipies{
+#recipies{
     display: flex;
-    margin-left: 150px;
-    margin-bottom: 150px;
+    margin-left: 80px;
+    padding-bottom: 50px;
 }
-.fish{
-    width: 20%;
-    margin-right: 10%;
+.dishes{
+    width: 100%;
+    margin-right: 50px;
     box-shadow: 10px 10px 50px gray;
     text-align: center;
     padding: 10px 10px;
     border-radius: 10px;
 }
-.fish img{
+.dishes img{
     width: 100%;
     border-radius: 10px;
 }
-.pumpkin{
-    width: 20%;
-    margin-right: 10%;
+#extra-works{
+    display: flex;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    background-image: url(project-images/Frame\ 58.jpg);
 }
-.pumpkin img{
-    width: 60%;
+.fit{
+    width: 70%;
+    margin-left: 80px;
 }
-.salad{
-    width: 20%;
+#extra-box{
+    box-shadow: 10px 10px 40px gray;
+    padding-bottom: 100px;
+    border-radius: 10px;
 }
-.salad img{
-    width: 60%;
+.advice{text-align: center;}
+
+#links{
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 150px;
+}
+#FB{
+    margin-left: 250px;
+    text-decoration: none;
+    background-image: linear-gradient(blue, cyan);
+    color: white;
+    padding: 10px 40px;
+    border-radius: 10px;
+}
+#insta{
+    margin-left: 250px;
+    text-decoration: none;
+    background-image: linear-gradient(red, orange);
+    color: white;
+    padding: 10px 40px;
+    border-radius: 10px;
+}
+#Lin{
+    margin-left: 250px;
+    text-decoration: none;
+    background-image: linear-gradient(blue, violet);
+    color: white;
+    padding: 10px 40px;
+    border-radius: 10px;
+}
+.one{
+    background-color: Black;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
 }
