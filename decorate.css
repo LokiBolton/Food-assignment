@@ -39,6 +39,7 @@ p{
     display: flex;
     margin-top: 150px;
     background-image: url(project-images/7.png);
+    margin-bottom: 150px;
 }
 .about{
     text-align: justify;
@@ -57,5 +58,37 @@ p{
     padding: 10px 40px;
     border-radius: 30px;
 }
-
-
+.recipy-talk{
+    text-align: center;
+    padding: 0 250px;
+}
+.recipies{
+    display: flex;
+    margin-left: 150px;
+    margin-bottom: 150px;
+}
+.fish{
+    width: 20%;
+    margin-right: 10%;
+    box-shadow: 10px 10px 50px gray;
+    text-align: center;
+    padding: 10px 10px;
+    border-radius: 10px;
+}
+.fish img{
+    width: 100%;
+    border-radius: 10px;
+}
+.pumpkin{
+    width: 20%;
+    margin-right: 10%;
+}
+.pumpkin img{
+    width: 60%;
+}
+.salad{
+    width: 20%;
+}
+.salad img{
+    width: 60%;
+}
